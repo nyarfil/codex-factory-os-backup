@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Codex Factory OS Governance Report",
+  "type": "object",
+  "required": ["policy_version", "mode", "codex_home", "summary", "resources", "findings"],
+  "properties": {
+    "policy_version": {"type": "string"},
+    "mode": {"const": "scan-only"},
+    "codex_home": {"type": "string"},
+    "repo_root": {"type": ["string", "null"]},
+    "summary": {"type": "object"},
+    "resources": {"type": "array"},
+    "findings": {"type": "array"}
+  }
+}

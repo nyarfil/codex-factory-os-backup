@@ -1,0 +1,80 @@
+{
+  "source_root": "V:/mouse",
+  "sources": {
+    "official_solid_compare_geometry.py": "4c20a77101909f9c9d706e049352be04541628a0eb9222abc9bf5b8241010556",
+    "official_solid_contacts_regularize.py": "f8fc9174e8bed53bdf3dff9667313fbd4aa7e9da910f3eb9a8d06df449c3d3a2",
+    "official_solid_exact_boundary_trial.py": "4a9136d906585b3d8ebfcbfc68646d9db38da3a7241ed8430862a5dafe016860",
+    "official_solid_full_diagnose.py": "c8fe0d16cabf38a137f683952d3976d75f471a3b73125d87b4601cced01ae52b",
+    "official_solid_patch_loops.py": "21b47802f348a76482707e4713938dfe52296a7e9885d3007e167421c49cc347",
+    "official_solid_precision_package.py": "0fc5135807b104e89c22d4f61b378037f4fc0e4f280df11270a46991f9edc122",
+    "official_solid_prepare_precision_manifest.py": "b34cd6e5e41b89a3340cf7d0724446020cb61e434f0e52197d7d066673de1376",
+    "official_solid_regularize.py": "af6eecef7f37ed89c1bc24476011a010fd938c9dfaaebf0e6c826905df959cde",
+    "official_solid_side_second_pass.py": "fb401b89cb4fbe6f1431ed7c09cf51cd2b90f43a59f38fcde5f2621ae79a4952",
+    "official_solid_surface_deviation.py": "6e2f7dcc36dc8d5ba7a6c1c11070bb557549a987da90644498fcd7319b52f7a4",
+    "official_solid_union_cells.py": "ca2854086c6ceaaa79f3bb2aacb02025fd07d32120d97249959462c4e1c19b33",
+    "official_solid_usb_second_pass.py": "37fbfaaa12be5cd99ece6bb3c9754598c77e776016f6a9e27bab447963f11f24",
+    "official_upper_angular_fit_probe.py": "73dfba5511b22faed7c5e99b3ffd45d7696255bd3d73488e1265990120b1c228",
+    "official_upper_feature_preservation.py": "fcfa7d84a1fdff9d5266c9331ad451dce1e4cb63343f86a5babe1ea0c89d46c1",
+    "official_upper_feature_regions.py": "36e23dfdde53a12f44854d473381b6f2305dd3eb04ece69a17a64811279f37ba",
+    "official_upper_hybrid_export.py": "3f656dbc83aecd1ab6e24abf8f012205df1f3204b3a12cb3e03512e743d6f82f",
+    "official_upper_hybrid_rebuild.py": "d5dfce7e8046bead878c717787105f15a8cc53a575b80f9e75379ce30a497d7c",
+    "official_upper_hybrid_validate.py": "a518cda4112c749fcd3c486b25cfafb44f69628c8e41ec6627a70a72b19dcb67",
+    "official_upper_no_logo.py": "c02b132764e013e281ff3baa28eaca874bd2c3ec88ebe101474a9b7b76c0baf3",
+    "official_upper_no_logo_validate.py": "86570ff8097682c68ae8b988d7a90f17fcbe56ac6bfdee86db11c07c8af9e796",
+    "official_upper_rebuild_diagnose.py": "57d7630e44a6f9468cf4bd2f02c9a2370ab41afdf906c0e4581680016072a81d",
+    "official_upper_section_compare.py": "1b7b7961a366b6a81dcae55a6a07b46b9baef16e550fda37233ae7782137483f",
+    "official_upper_surface_fit_probe.py": "e6206f2f37bdc2cafda0092d6186980fb7dab46d4723c517b03b1c625158a075"
+  },
+  "modes": {
+    "upper-no-logo": {
+      "inputs": {
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/exact_boundary_66853.brep": "fac7ad9170a468302b4d9f2a5ef4c11e06be62b28a201930d8c365226f8059bd",
+        "outputs/ZA13_UPPER_SURFACE_REBUILD_01/upper_reference_mesh.npz": "d17c23e8860c7737de3348df37668b88bdfda300ab49778cfb937b0602f106c4",
+        "outputs/ZA13_UPPER_SURFACE_REBUILD_01/feature_labels_5.npy": "e7e15628e3cf13b2c3f2d2df7745521dbf51d6f41c5665da3f8b5eb8084e02d1",
+        "outputs/ZA13_UPPER_SURFACE_REBUILD_01/upper_hybrid_candidate.brep": "deed242f186c535446464ee0be479ec31b5d8926ff2154dc4f33829a15aacbf4",
+        "outputs/ZA13_UPPER_SURFACE_REBUILD_01/candidate_surface_3.brep": "56a71bff6c1db99ce9f12043a4b78234dd71d3508a1f2832675b58bc9a12c8b9",
+        "outputs/ZA13_UPPER_SURFACE_REBUILD_01/candidate_surface_4.brep": "2712f80cc767e4c3ece521a844f8d375179480a983bb648165e91d3567506958"
+      },
+      "recipe": [
+        "official_upper_no_logo.py"
+      ]
+    },
+    "upper-lightweight": {
+      "inputs": {
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/exact_boundary_66853.brep": "fac7ad9170a468302b4d9f2a5ef4c11e06be62b28a201930d8c365226f8059bd",
+        "outputs/ZA13_UPPER_SURFACE_REBUILD_01/upper_reference_mesh.npz": "d17c23e8860c7737de3348df37668b88bdfda300ab49778cfb937b0602f106c4",
+        "outputs/ZA13_UPPER_SURFACE_REBUILD_01/feature_labels_5.npy": "e7e15628e3cf13b2c3f2d2df7745521dbf51d6f41c5665da3f8b5eb8084e02d1",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_03/validated_components.json": "03ccfa4804eeacd3eedae4c4788b766ff5c4321205e51e843661dbb4f630e1e0"
+      },
+      "recipe": [
+        "official_upper_hybrid_rebuild.py",
+        "official_upper_hybrid_export.py"
+      ]
+    },
+    "precision-assembly": {
+      "inputs": {
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/original_all_bodies.step": "8324216f3816690e6cdf86de069740484b16bd7a22d13e5842a7496a59fc6010",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/original_import_cache.brep": "2f5efa13a6ffe8a78624db720ab0941b7a11a80e5631fdbb50f8bfeb86a0dbbb",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/original_import_cache.json": "6110864828158cbbe1db8b968eba149dae797b5d19f66e65a4801bab0f319eab",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_03/validated_components.json": "03ccfa4804eeacd3eedae4c4788b766ff5c4321205e51e843661dbb4f630e1e0",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/regularized_original_160.brep": "11c2fe5bf8e69d80bf10530166d55a5bb486e73f052dbcb49a02f2c92540ebcb",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/regularized_original_160.json": "544bdf074bfa67d589412e754f49ddc92e9374429a4da214a9f3af93da9629b5",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/regularized_original_161.brep": "de1a5dee61e3bf3054883c553a61cd7c804bc2a7c2fd09ab8ae8ea2bffdfacd9",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/regularized_original_161.json": "7fc9b43bc8075c7b6f0be3708af0383e92696933bf5be57c8d72fc765809b010",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/regularized_side_second.brep": "6573577cc62683e91b2eb93899f2a893ec3795e4924e52de04a87d2726a6d834",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/regularized_side_second.json": "29879cfbf8c91da58fc2f67ea025a7f0457d63f57d03123c49053cbb3fb60954",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/exact_boundary_66853.brep": "fac7ad9170a468302b4d9f2a5ef4c11e06be62b28a201930d8c365226f8059bd",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/exact_boundary_66853.json": "3c94c4c2d6475a25aa72a06479fd3eadd16b7fc2310be074f1c374c0653fcb2e",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/exact_boundary_29246.brep": "b6ef54d04201a40a96059dfca02eb7d30b531026eb40437d3d05455be8b21092",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/exact_boundary_29246.json": "f4c50de3c66bfdc299a5de41cd294af0fb0fb45f8532aa70ff1ad61451d2af41",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/regularized_usb_second.brep": "adbf284ffcee5cfa93d9a14bcaffed54c50a34a480120f0cd8c73058d2c0ab8d",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/regularized_usb_second.json": "f1dc858addf2dd718174d1415a76ef736e5d0ce9832f62e82cf4703c3be5d75a",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/exact_boundary_908.brep": "1fa730583dbbedc4df7347a065b542c1cb94a7720ff42bdd0d877b728e7c5b6e",
+        "outputs/ZA13_OFFICIAL_PRECISION_REPAIR_02/exact_boundary_908.json": "ed38e723d60c2202c7b1acb3f7011112aaa5f915e29fcd6155b836cf6b994946"
+      },
+      "recipe": [
+        "official_solid_precision_package.py"
+      ]
+    }
+  }
+}

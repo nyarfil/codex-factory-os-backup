@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "component": "codex-factory-os/03-skills",
+  "principles": [
+    "Keep the implicit skill surface small: one entry skill per factory, with progressive disclosure into references.",
+    "Specialized factories may invoke Phase 2 roles, but they do not hard-code MCP servers or replace project-native tools.",
+    "General Factory is a fallback selected by the global router and therefore disables implicit invocation to avoid shadowing specialized skills.",
+    "Software and CAD/3DP factories preserve a single-writer integration boundary for overlapping edits.",
+    "Astra is a scarce reasoning specialist, not a bulk worker."
+  ],
+  "domains": {
+    "general": {
+      "skill": "factory-general",
+      "implicit": false
+    },
+    "software": {
+      "skill": "factory-software",
+      "implicit": true
+    },
+    "cad_3dp": {
+      "skill": "factory-cad-3dp",
+      "implicit": true
+    },
+    "research": {
+      "skill": "factory-research",
+      "implicit": true
+    },
+    "data": {
+      "skill": "factory-data",
+      "implicit": true
+    },
+    "document": {
+      "skill": "factory-document",
+      "implicit": true
+    }
+  }
+}

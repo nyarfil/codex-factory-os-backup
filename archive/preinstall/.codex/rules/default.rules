@@ -1,0 +1,1 @@
+prefix_rule(pattern=["C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "-Command", "npm.cmd run build"], decision="allow")

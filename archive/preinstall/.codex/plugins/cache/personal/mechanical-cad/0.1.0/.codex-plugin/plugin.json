@@ -1,0 +1,17 @@
+{
+  "name": "mechanical-cad",
+  "version": "0.1.0",
+  "description": "Personal mechanical engineering orchestration with Text-to-CAD and Autodesk Fusion cross-validation.",
+  "author": {"name": "nikis"},
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Mechanical CAD",
+    "shortDescription": "機械部品の設計・STEP生成・Fusion検証",
+    "longDescription": "Text-to-CADを正本として設計し、必要に応じてFusion・DfAMで検証する個人用環境。既存F3DはFusionを正本として扱います。",
+    "developerName": "nikis",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": ["このPCBを入れるケースを設計して", "この部品を3Dプリントできるように直して"]
+  }
+}

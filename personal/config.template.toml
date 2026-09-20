@@ -1,0 +1,82 @@
+# Portable configuration; host-managed settings are intentionally omitted.
+model = "gpt-5.6-sol"
+model_reasoning_effort = "high"
+
+[features]
+multi_agent = true
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+default_subagent_model = "gpt-5.6-terra"
+default_subagent_reasoning_effort = "medium"
+
+[memories]
+generate_memories = false
+use_memories = false
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."cad@text-to-cad"]
+enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."data-analytics@openai-curated-remote"]
+enabled = false
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."github@openai-curated"]
+enabled = false
+
+[plugins."github@openai-curated-remote"]
+enabled = true
+
+[plugins."hugging-face@openai-curated"]
+enabled = false
+
+[plugins."nvidia@openai-curated"]
+enabled = false
+
+[plugins."openai-templates@openai-curated-remote"]
+enabled = false
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."plugin-management@openai-curated-remote"]
+enabled = false
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[mcp_servers.fusion]
+url = "http://127.0.0.1:27182/mcp"
+
+[mcp_servers.serena]
+command = "uvx"
+args = ["--from", "git+https://github.com/oraios/serena@c4dc91a7dac4ea560dc7658581a63dac33a76e6c", "serena", "start-mcp-server", "--context", "desktop-app", "--project-from-cwd", "--open-web-dashboard", "false", "--enable-gui-log-window", "false", "--enable-web-dashboard", "false"]
+startup_timeout_sec = 120
+tool_timeout_sec = 120

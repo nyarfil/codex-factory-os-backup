@@ -1,0 +1,66 @@
+{
+  "original_home": "C:\\Users\\nikis",
+  "backup_date": "2026-09-20",
+  "original_plugins": {
+    "documents@openai-primary-runtime": {
+      "enabled": true
+    },
+    "spreadsheets@openai-primary-runtime": {
+      "enabled": true
+    },
+    "presentations@openai-primary-runtime": {
+      "enabled": true
+    },
+    "github@openai-curated": {
+      "enabled": true
+    },
+    "chrome@openai-bundled": {
+      "enabled": true
+    },
+    "computer-use@openai-bundled": {
+      "enabled": true
+    },
+    "nvidia@openai-curated": {
+      "enabled": true
+    },
+    "hugging-face@openai-curated": {
+      "enabled": true
+    },
+    "pdf@openai-primary-runtime": {
+      "enabled": true
+    },
+    "template-creator@openai-primary-runtime": {
+      "enabled": true
+    },
+    "visualize@openai-bundled": {
+      "enabled": true
+    },
+    "browser@openai-bundled": {
+      "enabled": true
+    },
+    "codex-app-tools@openai-bundled": {
+      "enabled": true
+    },
+    "unified-computer-use@openai-bundled": {
+      "enabled": true
+    },
+    "cad@text-to-cad": {
+      "enabled": true
+    },
+    "mechanical-cad@personal": {
+      "enabled": true
+    }
+  },
+  "original_mcp_names": [
+    "node_repl",
+    "serena"
+  ],
+  "excluded_categories": [
+    "authentication and credential stores",
+    "sessions and conversations",
+    "live config.toml and its environment values",
+    "executable binaries and dependency caches",
+    "Git object databases"
+  ],
+  "excluded_path_count": 24
+}

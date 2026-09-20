@@ -1,0 +1,31 @@
+{
+  "optional_groups": 8,
+  "optional_guides": 47,
+  "discovered_skill_count": 34,
+  "discovery_errors": [],
+  "factory_files_unchanged": 191,
+  "serena_pinned_commit": "c4dc91a7dac4ea560dc7658581a63dac33a76e6c",
+  "serena_fixed_project": false,
+  "auto_detection_test": [
+    {
+      "project": "workspace-a",
+      "auto_detect": true,
+      "symbol_read": true,
+      "jck_reference": false
+    },
+    {
+      "project": "workspace-b",
+      "auto_detect": true,
+      "symbol_read": true,
+      "jck_reference": false
+    }
+  ],
+  "activation_switch_test": {
+    "absolute_path_activation_and_switch": [
+      "workspace-a",
+      "workspace-b"
+    ],
+    "passed": true
+  },
+  "optional_external_backends": "reference-only; not started or reconnected"
+}

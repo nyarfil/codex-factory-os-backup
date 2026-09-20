@@ -1,0 +1,68 @@
+{
+  "description": "Codex Factory OS runtime activation, model audit, and subagent lifecycle hooks.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"__FACTORY_OS_ROOT__/04-runtime/hooks/session_start.py\"",
+            "timeout": 5,
+            "additionalContextLimit": 1024
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"__FACTORY_OS_ROOT__/04-runtime/hooks/user_prompt_submit.py\"",
+            "timeout": 5,
+            "additionalContextLimit": 1024
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Agent|spawn_agent",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"__FACTORY_OS_ROOT__/04-runtime/hooks/pre_tool_use_agent.py\"",
+            "timeout": 3,
+            "additionalContextLimit": 1024
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"__FACTORY_OS_ROOT__/04-runtime/hooks/subagent_start.py\"",
+            "timeout": 3,
+            "additionalContextLimit": 1024
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"__FACTORY_OS_ROOT__/04-runtime/hooks/subagent_stop.py\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}

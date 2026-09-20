@@ -1,0 +1,121 @@
+{
+  "general": {
+    "chat": [
+      "general_planner"
+    ],
+    "extraction": [
+      "general_explorer"
+    ],
+    "exploration": [
+      "general_explorer"
+    ],
+    "planning": [
+      "general_planner"
+    ],
+    "synthesis": [
+      "general_planner"
+    ],
+    "review": [
+      "verification_reviewer"
+    ]
+  },
+  "software": {
+    "exploration": [
+      "software_repo_mapper",
+      "software_dependency_researcher"
+    ],
+    "implementation": [
+      "software_builder",
+      "software_senior_builder"
+    ],
+    "refactor": [
+      "software_senior_builder"
+    ],
+    "debug": [
+      "software_debugger",
+      "software_astra_debug_specialist"
+    ],
+    "testing": [
+      "software_test_engineer"
+    ],
+    "review": [
+      "software_reviewer"
+    ],
+    "integration": [
+      "software_integration_owner"
+    ],
+    "architecture": [
+      "software_architect",
+      "software_astra_debug_specialist"
+    ]
+  },
+  "cad_3dp": {
+    "geometry_inspection": [
+      "cad_geometry_inspector"
+    ],
+    "research": [
+      "cad_reference_researcher"
+    ],
+    "cad_edit": [
+      "cad_model_builder"
+    ],
+    "cad_recipe": [
+      "cad_recipe_engineer"
+    ],
+    "mechanism_design": [
+      "cad_mechanism_engineer",
+      "cad_astra_mechanism_specialist"
+    ],
+    "dfm_3dp": [
+      "cad_3dp_dfm_engineer"
+    ],
+    "simulation": [
+      "cad_simulation_analyst"
+    ],
+    "optimization": [
+      "cad_optimization_engineer",
+      "cad_astra_mechanism_specialist"
+    ],
+    "review": [
+      "cad_integration_owner",
+      "verification_reviewer"
+    ],
+    "integration": [
+      "cad_integration_owner"
+    ]
+  },
+  "research": {
+    "research": [
+      "research_scout",
+      "research_deep_researcher"
+    ],
+    "extraction": [
+      "research_scout"
+    ],
+    "synthesis": [
+      "research_synthesizer"
+    ],
+    "review": [
+      "research_fact_checker"
+    ]
+  },
+  "data": {
+    "extraction": [
+      "data_analyst"
+    ],
+    "synthesis": [
+      "data_analyst"
+    ]
+  },
+  "document": {
+    "extraction": [
+      "document_editor"
+    ],
+    "synthesis": [
+      "document_editor"
+    ],
+    "implementation": [
+      "document_editor"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "description": "Reversible cleanup only. Review paths before --apply.",
+  "operations": [
+    {
+      "op": "quarantine_path",
+      "path": "C:/Users/YOU/.agents/skills/duplicate-old-skill"
+    },
+    {
+      "op": "quarantine_path",
+      "path": "C:/Users/YOU/.codex/agents/obsolete-agent.toml"
+    }
+  ]
+}

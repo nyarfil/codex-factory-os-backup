@@ -1,0 +1,23 @@
+{
+  "factory_files_verified": 191,
+  "factory_files_changed": [],
+  "factory_block_unchanged": true,
+  "factory_model_agent_defaults_unchanged": true,
+  "extension_managed_files": 84,
+  "missing_links": [],
+  "discovered_skills": 34,
+  "duplicate_names": false,
+  "skill_errors": [],
+  "selected_plugins_enabled": 13,
+  "fusion_initialize": "HTTP 200",
+  "forgecad_version": "0.13.0",
+  "cadgen_doctor": "0.6.5 kernel and pin OK",
+  "pip_check": "50 packages compatible",
+  "step_roundtrip": {
+    "solids": 1,
+    "volume_mm3": 6000
+  },
+  "chromium_launch": "passed",
+  "scenario_review": "Fusion, Next.js, ForgeCAD: correct Factory and source authority",
+  "hook_trust_and_actual_agent_turns": "not tested"
+}

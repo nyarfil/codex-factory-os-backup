@@ -1,0 +1,9 @@
+# Optional recommendations; the installer does NOT merge these automatically.
+# Apply only after reviewing your existing ~/.codex/config.toml.
+model = "gpt-5.6"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+default_subagent_model = "gpt-5.6-terra"
+default_subagent_reasoning_effort = "medium"

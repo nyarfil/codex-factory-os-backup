@@ -1,0 +1,9 @@
+{"ts":1789861955.53664,"event":"prompt_route","domain":"software","why":"software cues"}
+{"ts":1789861958.5964584,"event":"subagent_start","agent":"cad_astra_mechanism_specialist","expected_model":"gpt-6-astra","actual_model":"gpt-5.6","mismatch":true}
+{"ts":1789861960.2203264,"event":"subagent_stop","agent":"software_builder","last_message_present":true}
+{"ts":1789861977.7452962,"event":"prompt_route","domain":"software","why":"software cues"}
+{"ts":1789861980.9777148,"event":"subagent_start","agent":"cad_astra_mechanism_specialist","expected_model":"gpt-6-astra","actual_model":"gpt-5.6","mismatch":true}
+{"ts":1789861982.8204703,"event":"subagent_stop","agent":"software_builder","last_message_present":true}
+{"ts":1789862198.5175626,"event":"prompt_route","domain":"software","why":"software cues"}
+{"ts":1789862201.730472,"event":"subagent_start","agent":"cad_astra_mechanism_specialist","expected_model":"gpt-6-astra","actual_model":"gpt-5.6","mismatch":true}
+{"ts":1789862203.3474276,"event":"subagent_stop","agent":"software_builder","last_message_present":true}

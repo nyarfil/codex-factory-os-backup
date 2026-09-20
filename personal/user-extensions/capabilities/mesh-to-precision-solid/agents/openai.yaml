@@ -1,0 +1,6 @@
+interface:
+  display_name: "精密ソリッド化・曲面軽量化"
+  short_description: "メッシュ由来の形状を保ち、修復・曲面再構築・保存後検証を再現する"
+  default_prompt: "$mesh-to-precision-solid を使い、元形状とのずれを測定しながらソリッド化または軽量化してください。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+{
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "cadgen": "0.5.0",
+    "build123d": "0.11.1",
+    "cadquery-ocp": "7.9.3.1.1",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "trimesh": "5.1.0",
+    "shapely": "2.1.2",
+    "rtree": "1.4.1"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "fresh_home_restore": "passed",
+  "path_relocation": "passed",
+  "doctor": {
+    "operation": "doctor",
+    "codex_home": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home\\.codex",
+    "user_home": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home",
+    "install_root": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home\\.codex\\factory-os\\1.1.0",
+    "backup_path": null,
+    "ok": true,
+    "items": [
+      {
+        "action": "python",
+        "status": "ok",
+        "path": null,
+        "detail": "Python 3.13.4",
+        "extra": {}
+      },
+      {
+        "action": "codex_cli",
+        "status": "ok",
+        "path": "C:\\Users\\nikis\\AppData\\Local\\OpenAI\\Codex\\bin\\247581e40ee272fb\\codex.EXE",
+        "detail": "codex-cli 0.155.0-alpha.9.2",
+        "extra": {}
+      },
+      {
+        "action": "config_parse",
+        "status": "ok",
+        "path": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home\\.codex\\config.toml",
+        "detail": "config.toml parses successfully.",
+        "extra": {}
+      },
+      {
+        "action": "manifest",
+        "status": "ok",
+        "path": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home\\.codex\\factory-os\\1.1.0\\install-manifest.json",
+        "detail": "Install manifest present.",
+        "extra": {}
+      },
+      {
+        "action": "managed_integrity",
+        "status": "ok",
+        "path": null,
+        "detail": "Managed agent/skill files match install fingerprints.",
+        "extra": {}
+      },
+      {
+        "action": "global_guidance",
+        "status": "ok",
+        "path": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home\\.codex\\AGENTS.md",
+        "detail": "Factory OS control-plane block is active.",
+        "extra": {}
+      },
+      {
+        "action": "agents",
+        "status": "ok",
+        "path": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home\\.codex\\agents",
+        "detail": "Expected 31 Factory agents; missing=[]",
+        "extra": {}
+      },
+      {
+        "action": "skills",
+        "status": "ok",
+        "path": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home\\.agents\\skills",
+        "detail": "Expected 6 Factory skills; missing=[]",
+        "extra": {}
+      },
+      {
+        "action": "hooks",
+        "status": "ok",
+        "path": "E:\\aiwork\\codex-factory-os-backup\\verification-output\\fresh-home\\.codex\\hooks.json",
+        "detail": "Factory lifecycle hooks found.",
+        "extra": {}
+      },
+      {
+        "action": "governor",
+        "status": "ok",
+        "path": null,
+        "detail": "42 resources; 0 findings; 0 high/critical.",
+        "extra": {
+          "severe": []
+        }
+      }
+    ]
+  },
+  "not_tested": "Remote plugin reauthentication and physical app/runtime reinstall"
+}

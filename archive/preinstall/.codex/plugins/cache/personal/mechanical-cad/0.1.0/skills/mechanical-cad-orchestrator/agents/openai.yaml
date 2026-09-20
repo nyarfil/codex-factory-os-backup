@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mechanical CAD Orchestrator"
+  short_description: "物理部品をパラメトリック設計し、寸法・干渉・造形性を検証する"
+  default_prompt: "$mechanical-cad-orchestrator で、この部品を設計して検証まで進めて。"
+policy:
+  allow_implicit_invocation: true

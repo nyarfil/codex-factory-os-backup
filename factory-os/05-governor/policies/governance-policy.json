@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "mode": "scan-only",
+  "control_plane": "Codex Factory OS",
+  "scope_statement": "Within user-managed Codex customization, Factory OS owns orchestration, model routing, factory selection, delegation policy, cost posture, and integration policy. Platform/admin/security constraints remain outside and above this user customization layer.",
+  "resource_roles": {
+    "AGENTS.md": "persistent guidance and local repository constraints",
+    "Skills": "reusable workflows and domain knowledge",
+    "MCP": "external tools and shared systems",
+    "Custom Agents": "bounded specialist roles with explicit model/sandbox settings",
+    "Hooks": "lifecycle activation, audit, and guardrails",
+    "Rules": "out-of-sandbox command execution policy only"
+  },
+  "subordinate_must_not_own": [
+    "global model routing",
+    "factory selection",
+    "global budget policy",
+    "unbounded subagent fan-out",
+    "cross-factory integration ownership",
+    "disabling or bypassing Factory OS"
+  ],
+  "mutation_policy": {
+    "phase_05": "No deletion, disablement, rename, or rewrite. Inventory and plan only.",
+    "future": "Any cleanup mutation must be backup-first, reversible, and attributable to a reviewed plan."
+  }
+}

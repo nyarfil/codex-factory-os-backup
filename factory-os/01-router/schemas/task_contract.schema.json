@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://codex-factory-os.local/schemas/task_contract.schema.json",
+  "title": "Codex Factory OS Task Contract",
+  "type": "object",
+  "required": ["domain", "task_type"],
+  "properties": {
+    "domain": {"enum": ["general", "software", "cad_3dp", "research", "data", "document"]},
+    "task_type": {"enum": ["chat", "extraction", "exploration", "research", "synthesis", "planning", "implementation", "refactor", "debug", "testing", "review", "integration", "architecture", "geometry_inspection", "cad_edit", "cad_recipe", "mechanism_design", "dfm_3dp", "simulation", "optimization"]},
+    "complexity": {"type": "integer", "minimum": 0, "maximum": 5, "default": 2},
+    "uncertainty": {"type": "integer", "minimum": 0, "maximum": 5, "default": 2},
+    "novelty": {"type": "integer", "minimum": 0, "maximum": 5, "default": 1},
+    "blast_radius": {"type": "integer", "minimum": 0, "maximum": 5, "default": 1},
+    "failure_count": {"type": "integer", "minimum": 0, "default": 0},
+    "verification_strength": {"type": "integer", "minimum": 0, "maximum": 5, "default": 2},
+    "parallelizability": {"type": "integer", "minimum": 0, "maximum": 5, "default": 1},
+    "write_overlap_risk": {"type": "integer", "minimum": 0, "maximum": 5, "default": 1},
+    "context_size": {"type": "integer", "minimum": 0, "maximum": 5, "default": 2},
+    "safety_criticality": {"type": "integer", "minimum": 0, "maximum": 5, "default": 0},
+    "budget_mode": {"enum": ["eco", "balanced", "quality", "max"], "default": "balanced"},
+    "user_requires_max_quality": {"type": "boolean", "default": false},
+    "deterministic_tools_available": {"type": "boolean", "default": false},
+    "notes": {"type": "string", "default": ""}
+  },
+  "additionalProperties": false
+}
